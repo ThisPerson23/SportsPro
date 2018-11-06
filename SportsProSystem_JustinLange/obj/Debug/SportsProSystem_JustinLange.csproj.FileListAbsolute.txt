@@ -1,0 +1,11 @@
+C:\Users\Justin\Desktop\Fall 2018\Database Programming\Assignments\Assignment_2\SportsProSystem_JustinLange\SportsProSystem_JustinLange\bin\Debug\SportsProSystem_JustinLange.exe.config
+C:\Users\Justin\Desktop\Fall 2018\Database Programming\Assignments\Assignment_2\SportsProSystem_JustinLange\SportsProSystem_JustinLange\bin\Debug\SportsProSystem_JustinLange.exe
+C:\Users\Justin\Desktop\Fall 2018\Database Programming\Assignments\Assignment_2\SportsProSystem_JustinLange\SportsProSystem_JustinLange\bin\Debug\SportsProSystem_JustinLange.pdb
+C:\Users\Justin\Desktop\Fall 2018\Database Programming\Assignments\Assignment_2\SportsProSystem_JustinLange\SportsProSystem_JustinLange\obj\Debug\SportsProSystem_JustinLange.csprojAssemblyReference.cache
+C:\Users\Justin\Desktop\Fall 2018\Database Programming\Assignments\Assignment_2\SportsProSystem_JustinLange\SportsProSystem_JustinLange\obj\Debug\SportsProSystem_JustinLange.frmMain.resources
+C:\Users\Justin\Desktop\Fall 2018\Database Programming\Assignments\Assignment_2\SportsProSystem_JustinLange\SportsProSystem_JustinLange\obj\Debug\SportsProSystem_JustinLange.Properties.Resources.resources
+C:\Users\Justin\Desktop\Fall 2018\Database Programming\Assignments\Assignment_2\SportsProSystem_JustinLange\SportsProSystem_JustinLange\obj\Debug\SportsProSystem_JustinLange.csproj.GenerateResource.cache
+C:\Users\Justin\Desktop\Fall 2018\Database Programming\Assignments\Assignment_2\SportsProSystem_JustinLange\SportsProSystem_JustinLange\obj\Debug\SportsProSystem_JustinLange.csproj.CoreCompileInputs.cache
+C:\Users\Justin\Desktop\Fall 2018\Database Programming\Assignments\Assignment_2\SportsProSystem_JustinLange\SportsProSystem_JustinLange\obj\Debug\SportsProSystem_JustinLange.exe
+C:\Users\Justin\Desktop\Fall 2018\Database Programming\Assignments\Assignment_2\SportsProSystem_JustinLange\SportsProSystem_JustinLange\obj\Debug\SportsProSystem_JustinLange.pdb
+C:\Users\Justin\Desktop\Fall 2018\Database Programming\Assignments\Assignment_2\SportsProSystem_JustinLange\SportsProSystem_JustinLange\obj\Debug\SportsProSystem_JustinLange.frmProductMaintenance.resources
