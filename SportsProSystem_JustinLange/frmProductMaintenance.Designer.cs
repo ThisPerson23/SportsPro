@@ -30,13 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmProductMaintenance));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.techSupportDataSet = new SportsProSystem_JustinLange.TechSupportDataSet();
-            this.productsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.productsTableAdapter = new SportsProSystem_JustinLange.TechSupportDataSetTableAdapters.ProductsTableAdapter();
-            this.tableAdapterManager = new SportsProSystem_JustinLange.TechSupportDataSetTableAdapters.TableAdapterManager();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.productsBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.productsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.techSupportDataSet = new SportsProSystem_JustinLange.TechSupportDataSet();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
@@ -53,37 +51,14 @@
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.techSupportDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).BeginInit();
+            this.productsTableAdapter = new SportsProSystem_JustinLange.TechSupportDataSetTableAdapters.ProductsTableAdapter();
+            this.tableAdapterManager = new SportsProSystem_JustinLange.TechSupportDataSetTableAdapters.TableAdapterManager();
             ((System.ComponentModel.ISupportInitialize)(this.productsBindingNavigator)).BeginInit();
             this.productsBindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.techSupportDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productsDataGridView)).BeginInit();
             this.SuspendLayout();
-            // 
-            // techSupportDataSet
-            // 
-            this.techSupportDataSet.DataSetName = "TechSupportDataSet";
-            this.techSupportDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // productsBindingSource
-            // 
-            this.productsBindingSource.DataMember = "Products";
-            this.productsBindingSource.DataSource = this.techSupportDataSet;
-            // 
-            // productsTableAdapter
-            // 
-            this.productsTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.CustomersTableAdapter = null;
-            this.tableAdapterManager.IncidentsTableAdapter = null;
-            this.tableAdapterManager.ProductsTableAdapter = this.productsTableAdapter;
-            this.tableAdapterManager.RegistrationsTableAdapter = null;
-            this.tableAdapterManager.StatesTableAdapter = null;
-            this.tableAdapterManager.TechniciansTableAdapter = null;
-            this.tableAdapterManager.UpdateOrder = SportsProSystem_JustinLange.TechSupportDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // productsBindingNavigator
             // 
@@ -123,6 +98,16 @@
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
             this.bindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // productsBindingSource
+            // 
+            this.productsBindingSource.DataMember = "Products";
+            this.productsBindingSource.DataSource = this.techSupportDataSet;
+            // 
+            // techSupportDataSet
+            // 
+            this.techSupportDataSet.DataSetName = "TechSupportDataSet";
+            this.techSupportDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // bindingNavigatorCountItem
             // 
@@ -223,6 +208,7 @@
             this.productsDataGridView.Name = "productsDataGridView";
             this.productsDataGridView.Size = new System.Drawing.Size(682, 289);
             this.productsDataGridView.TabIndex = 1;
+            this.productsDataGridView.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.productsDataGridView_DataError);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -249,12 +235,27 @@
             // dataGridViewTextBoxColumn4
             // 
             this.dataGridViewTextBoxColumn4.DataPropertyName = "ReleaseDate";
-            dataGridViewCellStyle4.Format = "d";
-            dataGridViewCellStyle4.NullValue = null;
-            this.dataGridViewTextBoxColumn4.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Format = "d";
+            dataGridViewCellStyle1.NullValue = null;
+            this.dataGridViewTextBoxColumn4.DefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewTextBoxColumn4.HeaderText = "Release Date";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.Width = 120;
+            // 
+            // productsTableAdapter
+            // 
+            this.productsTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.CustomersTableAdapter = null;
+            this.tableAdapterManager.IncidentsTableAdapter = null;
+            this.tableAdapterManager.ProductsTableAdapter = this.productsTableAdapter;
+            this.tableAdapterManager.RegistrationsTableAdapter = null;
+            this.tableAdapterManager.StatesTableAdapter = null;
+            this.tableAdapterManager.TechniciansTableAdapter = null;
+            this.tableAdapterManager.UpdateOrder = SportsProSystem_JustinLange.TechSupportDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // frmProductMaintenance
             // 
@@ -267,11 +268,11 @@
             this.Name = "frmProductMaintenance";
             this.Text = "Product Maintenance";
             this.Load += new System.EventHandler(this.frmProductMaintenance_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.techSupportDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.productsBindingNavigator)).EndInit();
             this.productsBindingNavigator.ResumeLayout(false);
             this.productsBindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.techSupportDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.productsDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

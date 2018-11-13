@@ -28,5 +28,12 @@ namespace SportsProSystem_JustinLange
         {
             this.Close();
         }
+
+        private void maintainCustomersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form customerMaintenance = new frmCustomerMaintenance();
+            customerMaintenance.MdiParent = this;
+            customerMaintenance.Show();
+        }
     }
 }

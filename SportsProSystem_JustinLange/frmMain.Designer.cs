@@ -1,4 +1,38 @@
-﻿namespace SportsProSystem_JustinLange
+﻿/**
+* @file
+* @author
+* Justin Lange 2018
+* @version 1.0
+*
+*
+* @section DESCRIPTION
+* Main Form for SportsPro System
+*
+*
+*
+*
+* @section LICENSE
+*
+*
+* Copyright 2018
+* Permission to use, copy, modify, and/or distribute this software for
+* any purpose with or without fee is hereby granted, provided that the
+* above copyright notice and this permission notice appear in all copies.
+*
+* THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+* WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+* MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+* ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+* WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+* ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+* OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+*
+* @section Academic Integrity
+* I certify that this work is solely my own and complies with
+* NBCC Academic Integrity Policy (policy 1111)
+*/
+
+namespace SportsProSystem_JustinLange
 {
     partial class frmMain
     {
@@ -88,6 +122,7 @@
             this.maintainCustomersToolStripMenuItem.Name = "maintainCustomersToolStripMenuItem";
             this.maintainCustomersToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.maintainCustomersToolStripMenuItem.Text = "Maintain Customers";
+            this.maintainCustomersToolStripMenuItem.Click += new System.EventHandler(this.maintainCustomersToolStripMenuItem_Click);
             // 
             // registrationToolStripMenuItem
             // 

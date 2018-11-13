@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmCustomerMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerMaintenance.Designer.cs">
+      <DependentUpon>frmCustomerMaintenance.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TechSupportDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="TechSupportDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TechSupportDataSet1.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmCustomerMaintenance.resx">
+      <DependentUpon>frmCustomerMaintenance.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,6 +113,17 @@
     </None>
     <None Include="TechSupportDataSet.xss">
       <DependentUpon>TechSupportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TechSupportDataSet1.xsc">
+      <DependentUpon>TechSupportDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TechSupportDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TechSupportDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TechSupportDataSet1.xss">
+      <DependentUpon>TechSupportDataSet1.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
