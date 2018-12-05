@@ -6,7 +6,7 @@
 *
 *
 * @section DESCRIPTION
-* Product Maintenance Form for SportPro System
+* SportsPro System Application - Assignment 3 - Product Maintenance Form
 *
 *
 *

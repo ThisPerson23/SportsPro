@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomer.Designer.cs">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCustomerMaintenance.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TechSupportDataSet2C.xsd</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmCustomer.resx">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCustomerMaintenance.resx">
       <DependentUpon>frmCustomerMaintenance.cs</DependentUpon>
     </EmbeddedResource>
