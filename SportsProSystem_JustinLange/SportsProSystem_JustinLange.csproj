@@ -52,6 +52,12 @@
     <Compile Include="frmCustomerMaintenance.Designer.cs">
       <DependentUpon>frmCustomerMaintenance.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmIncidentsByProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIncidentsByProduct.Designer.cs">
+      <DependentUpon>frmIncidentsByProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,8 +82,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TechSupportDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="TechSupportDataSet2C.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TechSupportDataSet2C.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frmCustomerMaintenance.resx">
       <DependentUpon>frmCustomerMaintenance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIncidentsByProduct.resx">
+      <DependentUpon>frmIncidentsByProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
@@ -124,6 +138,17 @@
     </None>
     <None Include="TechSupportDataSet1.xss">
       <DependentUpon>TechSupportDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TechSupportDataSet2C.xsc">
+      <DependentUpon>TechSupportDataSet2C.xsd</DependentUpon>
+    </None>
+    <None Include="TechSupportDataSet2C.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TechSupportDataSet2C.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TechSupportDataSet2C.xss">
+      <DependentUpon>TechSupportDataSet2C.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

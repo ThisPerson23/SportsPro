@@ -17,6 +17,11 @@ namespace SportsProSystem_JustinLange
             InitializeComponent();
         }
 
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void maintainProductsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form productMaintenance = new frmProductMaintenance();
@@ -24,16 +29,18 @@ namespace SportsProSystem_JustinLange
             productMaintenance.Show();
         }
 
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void maintainCustomersToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form customerMaintenance = new frmCustomerMaintenance();
             customerMaintenance.MdiParent = this;
             customerMaintenance.Show();
+        }
+
+        private void displayIncidentsByProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form incidentsByProduct = new frmIncidentsByProduct();
+            incidentsByProduct.MdiParent = this;
+            incidentsByProduct.Show();
         }
     }
 }

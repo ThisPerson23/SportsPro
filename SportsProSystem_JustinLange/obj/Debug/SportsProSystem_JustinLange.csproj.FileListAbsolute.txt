@@ -10,3 +10,4 @@ C:\Users\Justin\Desktop\Fall 2018\Database Programming\Assignments\Assignment_2\
 C:\Users\Justin\Desktop\Fall 2018\Database Programming\Assignments\Assignment_2\SportsProSystem_JustinLange\SportsProSystem_JustinLange\obj\Debug\SportsProSystem_JustinLange.pdb
 C:\Users\Justin\Desktop\Fall 2018\Database Programming\Assignments\Assignment_2\SportsProSystem_JustinLange\SportsProSystem_JustinLange\obj\Debug\SportsProSystem_JustinLange.frmProductMaintenance.resources
 C:\Users\Justin\Desktop\Fall 2018\Database Programming\Assignments\Assignment_2\SportsProSystem_JustinLange\SportsProSystem_JustinLange\obj\Debug\SportsProSystem_JustinLange.frmCustomerMaintenance.resources
+C:\Users\Justin\Desktop\Fall 2018\Database Programming\Assignments\Assignment_2\SportsProSystem_JustinLange\SportsProSystem_JustinLange\obj\Debug\SportsProSystem_JustinLange.frmIncidentsByProduct.resources

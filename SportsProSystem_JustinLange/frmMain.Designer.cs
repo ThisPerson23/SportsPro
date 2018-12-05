@@ -144,6 +144,7 @@ namespace SportsProSystem_JustinLange
             this.displayIncidentsByProductToolStripMenuItem.Name = "displayIncidentsByProductToolStripMenuItem";
             this.displayIncidentsByProductToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
             this.displayIncidentsByProductToolStripMenuItem.Text = "Display Incidents By Product";
+            this.displayIncidentsByProductToolStripMenuItem.Click += new System.EventHandler(this.displayIncidentsByProductToolStripMenuItem_Click);
             // 
             // frmMain
             // 
