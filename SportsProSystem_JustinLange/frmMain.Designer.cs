@@ -70,6 +70,7 @@ namespace SportsProSystem_JustinLange
             this.maintainCustomersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.incidentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.displayIncidentsByProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -97,7 +98,7 @@ namespace SportsProSystem_JustinLange
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -132,9 +133,17 @@ namespace SportsProSystem_JustinLange
             // 
             // incidentsToolStripMenuItem
             // 
+            this.incidentsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.displayIncidentsByProductToolStripMenuItem});
             this.incidentsToolStripMenuItem.Name = "incidentsToolStripMenuItem";
             this.incidentsToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.incidentsToolStripMenuItem.Text = "Incidents";
+            // 
+            // displayIncidentsByProductToolStripMenuItem
+            // 
+            this.displayIncidentsByProductToolStripMenuItem.Name = "displayIncidentsByProductToolStripMenuItem";
+            this.displayIncidentsByProductToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.displayIncidentsByProductToolStripMenuItem.Text = "Display Incidents By Product";
             // 
             // frmMain
             // 
@@ -164,6 +173,7 @@ namespace SportsProSystem_JustinLange
         private System.Windows.Forms.ToolStripMenuItem maintainCustomersToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registrationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem incidentsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem displayIncidentsByProductToolStripMenuItem;
     }
 }
 
